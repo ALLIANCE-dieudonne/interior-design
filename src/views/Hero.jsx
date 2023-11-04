@@ -7,7 +7,7 @@ import logo from "../assets/logo.svg";
 import cartIcon from "../assets/cart-icon.svg";
 import searchIcon from "../assets/search-icon.svg";
 
-import { heroTitle, heroSubtitle, services } from "../data";
+import { heroTitle, heroSubtitle } from "../data";
 
 import FadeIn from "../components/FadeIn";
 import NavLink from "../components/NavLink";
