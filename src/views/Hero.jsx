@@ -100,6 +100,8 @@ const Hero = () => {
           />
         </div>
       </FadeIn>
+
+      <div className="absolute h-[50px] xs:h-[150px] bottom-0 w-full bg-[linear(180deg, #ffffff00_0%,#FFF_100%)]"/>
     </div>
   );
 };
