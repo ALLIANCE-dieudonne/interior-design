@@ -56,17 +56,17 @@ const Hero = () => {
             onClick={() => setShowMobileMenu(false)}
           />
 
-          <ul className="pt-[60px] items-center flex flex-col gap-8">
-            <NavLink to="services" mobileMenu>
+          <ul className="pt-[60px] items-center flex flex-col gap-10">
+            <NavLink to="services" mobileMenu setShowMobileMenu={setShowMobileMenu}>
               Services
             </NavLink>
-            <NavLink to="products" mobileMenu>
+            <NavLink to="products" mobileMenu setShowMobileMenu={setShowMobileMenu}>
               Shop
             </NavLink>
-            <NavLink to="reference" mobileMenu>
+            <NavLink to="reference" mobileMenu setShowMobileMenu={setShowMobileMenu}>
               Reference
             </NavLink>
-            <NavLink to="care" mobileMenu>
+            <NavLink to="care" mobileMenu setShowMobileMenu={setShowMobileMenu}>
               Care
             </NavLink>{" "}
           </ul>
